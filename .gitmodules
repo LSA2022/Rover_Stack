@@ -1,0 +1,21 @@
+[submodule "lego_navigation"]
+	path = lego_navigation
+	url = https://github.com/LSA2022/lego_navigation.git
+[submodule "image_processor"]
+	path = image_processor
+	url = https://github.com/LSA2022/image_processor.git
+[submodule "image_pipeline_ca"]
+	path = image_pipeline_ca
+	url = https://github.com/LSA2022/image_pipeline_ca.git
+[submodule "LeGO-LOAM"]
+	path = LeGO-LOAM
+	url = https://github.com/LSA2022/LeGO-LOAM.git
+[submodule "grid_map_v2"]
+	path = grid_map_v2
+	url = https://github.com/LSA2022/grid_map_v2.git
+[submodule "leo_rover"]
+	path = leo_rover
+	url = https://github.com/LSA2022/leo_rover.git
+[submodule "cpp"]
+	path = cpp
+	url = https://github.com/LSA2022/cpp.git
