@@ -1,6 +1,6 @@
 # Rover_Stack
 
-##Description
+## Description
 This stack was built to control navigation of a rover in mars terrain based on natural features from the environment. The environment and rover were simulated. 
 All the packages have an informational Readme and references for the developers of some software, such as, LeGO-LOAM.
 
