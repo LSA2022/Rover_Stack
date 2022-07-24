@@ -8,7 +8,10 @@ The stack has only been tested in ubuntu 18.04 - ROS melodic distribution.
 ## Instalation
 1. Make sure you have [Ubuntu](https://ubuntu.com/download/alternative-downloads) and [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu#Installation) installed.
 2. Run the **install.sh** file to install all the necessary ROS packages an dependencies.
-3. Create an workspace: ``` mkdir catkin_rover_stack ```
+3. Create an workspace: 
+- ``` mkdir catkin_rover_stack ```
+- ``` cd ~/catkin_rover_stack ```
+- ``` mkdir src ```
 4. Clone Rover_stack to your workspace:
  - ``` cd ~/catkin_rover_stack/src ```
  - ``` git clone https://github.com/LSA2022/Rover_Stack.git```
