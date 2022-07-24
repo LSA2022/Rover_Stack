@@ -13,7 +13,7 @@ Due to high computing processing of **image_processor** package, it is recommend
 
 ## Instalation
 1. Make sure you have [Ubuntu](https://ubuntu.com/download/alternative-downloads) and [ROS melodic](http://wiki.ros.org/melodic/Installation/Ubuntu#Installation) installed.
-2. Run the **install.sh** file to install all the necessary ROS packages an dependencies.
+2. Run the **install.sh** file to install all the necessary ROS packages an dependencies - _Follow the instructions during instalation_.
 3. Create an workspace: 
 - ``` mkdir catkin_rover_stack ```
 - ``` cd ~/catkin_rover_stack ```
