@@ -31,7 +31,7 @@ Due to high computing processing of **image_processor** package, it is recommend
  - ``` catkin_make ```
 
 ## Run Stack
-1. Launch simulation: ``` roslaunch leo_erc_gazebo bring_up_leo_rover.launch``` (rover will be up to run and you can try, using a joystick or **teleop_twist_keyboard** to move it)
+1. Launch simulation: ``` roslaunch leo_erc_gazebo bring_up_leo.launch ``` (rover will be up to run and you can try, using a joystick or **teleop_twist_keyboard** to move it)
 2. Launch navigation: ``` roslaunch lego_navigation navigation.launch``` (mapping area is defined in **lego_navigation** _src_ file package. (you can upgrade it to set the parameters in the command line)
 
 ### Aditional features
