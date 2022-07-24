@@ -22,6 +22,8 @@ The stack has only been tested in ubuntu 18.04 - ROS melodic distribution.
 
 ### Aditional features
 - Run **rviz** to visualize the rover operation and open ros topics for real-time monitoring of rover operaation, for example, check the update mapping point cloud from LeGO-LOAM.
+- The rocks detection model can be changed in **image_processor** package, in file ****.
+- 
 
 
 ## Future Work
