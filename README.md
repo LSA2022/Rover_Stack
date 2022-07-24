@@ -24,6 +24,8 @@ Due to high computing processing of **image_processor** package, it is recommend
 5. Update submodules: 
  - ``` cd ~/catkin_rover_stack/src/Rover_Stack ```
  - ``` git submodule update --init image_pipeline_ca/ image_processor/ LeGO-LOAM/ leo_rover/ grid_map_v2/ lego_navigation/ cpp/ ``` (make sure you have your github logging for each step)  
+ - ``` cd ~/catkin_rover_stack/src/Rover_Stack/leo_rover ```
+ - ``` git submodule update --init leo_common/ leo_erc_common/ leo_erc_desktop/ ```
 7. Compile the packages:
  - ``` cd ~/catkin_rover_stack ```
  - ``` catkin_make ```
