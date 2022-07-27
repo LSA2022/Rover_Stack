@@ -37,7 +37,7 @@ Due to high computing processing of **image_processor** package, it is recommend
 ### Addicional fixs
 1. ``` libcurl: (51) SSL: no alternative certificate subject name matches target host name 'api.ignitionfuel.org' ```
 - Correction [link](https://varhowto.com/how-to-fix-libcurl-51-ssl-no-alternative-certificate-subject-name-matches-target-host-name-api-ignitionfuel-org-gazebo-ubuntu-ros-melodic/)
-2. Open **_/home/tester/.local/lib/python3.6/site-packages/object_detection/utils/label_map_util.py_** replace ``` tf.gfile.GFile ``` with ``` tf.io.gfile.GFile ```
+2. Open **_/home/$USER/.local/lib/python3.6/site-packages/object_detection/utils/label_map_util.py_** replace ``` tf.gfile.GFile ``` with ``` tf.io.gfile.GFile ```
 
 ### Aditional features
 - Run **rviz** to visualize the rover operation and open ros topics for real-time monitoring of rover operaation, for example, check the update mapping point cloud from LeGO-LOAM.
