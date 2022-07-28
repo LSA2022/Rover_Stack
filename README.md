@@ -34,12 +34,12 @@ Due to high computing processing of **image_processor** package, it is recommend
 1. Launch simulation: ``` roslaunch leo_erc_gazebo bring_up_leo.launch ``` (rover will be up to run and you can try, using a joystick or **teleop_twist_keyboard** to move it)
 2. Launch navigation: ``` roslaunch lego_navigation navigation.launch``` (mapping area is defined in **lego_navigation** _src_ file package. (you can upgrade it to set the parameters in the command line)
 
-### Addicional fixs
+### Additional fixes
 1. ``` libcurl: (51) SSL: no alternative certificate subject name matches target host name 'api.ignitionfuel.org' ```
 - Correction [link](https://varhowto.com/how-to-fix-libcurl-51-ssl-no-alternative-certificate-subject-name-matches-target-host-name-api-ignitionfuel-org-gazebo-ubuntu-ros-melodic/)
 2. Open **_/home/$USER/.local/lib/python3.6/site-packages/object_detection/utils/label_map_util.py_** replace ``` tf.gfile.GFile ``` with ``` tf.io.gfile.GFile ```
 
-### Aditional features
+### Additional features
 - Run **rviz** to visualize the rover operation and open ros topics for real-time monitoring of rover operaation, for example, check the update mapping point cloud from LeGO-LOAM.
 - The rocks detection model can be changed in **image_processor** package, in file _detection.py_.
 
