@@ -7,7 +7,7 @@ The stack has only been tested in Ubuntu 18.04 (Bionic) - ROS melodic distributi
 
 ## Machine recomendations
 Due to high computing processing of **image_processor** package, it is recommend to run the simulation on a machine with the following characteristics or higher:
-- i7 (4.1 GHz) or similar
+- i5 (3.1 GHz) or similar
 - GTX 1550 or similar
 - At least 16Gb of RAM
 
