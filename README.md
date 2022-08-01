@@ -31,8 +31,8 @@ Due to high computing processing of **image_processor** package, it is recommend
  - ``` catkin_make ```
 
 ## Run Stack
-1. Launch simulation: ``` roslaunch leo_erc_gazebo bring_up_leo.launch ``` (rover will be up to run and you can try, using a joystick or **teleop_twist_keyboard** to move it)
-2. Launch navigation: ``` roslaunch lego_navigation navigation.launch``` (mapping area is defined in **lego_navigation** _src_ file package. (you can upgrade it to set the area parameters in the command line)
+1. Launch simulation: ``` roslaunch leo_erc_gazebo bring_up_leo.launch ``` - Rover will be up to run and you can try, using a joystick or **teleop_twist_keyboard** to move it. Rover will start environment perception and rocks detection.
+2. Launch navigation as soon as rover is placed in coverage area (it may take some seconds till the reactor starts burning uranium): ``` rosrun lego_navigation navigation_control.py ``` (mapping area is defined in **lego_navigation** package _src_ file _navigation_control.py_, you can upgrade it to set the area parameters in the command line)
 
 ### Additional fixes
 1. ``` libcurl: (51) SSL: no alternative certificate subject name matches target host name 'api.ignitionfuel.org' ```
