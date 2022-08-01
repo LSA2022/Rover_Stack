@@ -52,9 +52,9 @@ python3 -m pip install --upgrade pip
 
 sudo apt install python3-testresources
 
-python3 -m pip install --upgrade tensorflow -U "protobuf<4.21.0"
+python3 -m pip install --upgrade tensorflow==2.6.2 -U "protobuf<3.19.5"
 
-python3 -m pip install tensorflow-object-detection-api -U "protobuf<4.21.0"
+python3 -m pip install tensorflow-object-detection-api==0.1
 
 sudo apt-get install python3-tk*
 
