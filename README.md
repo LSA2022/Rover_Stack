@@ -41,7 +41,7 @@ Due to high computing processing of **image_processor** package, it is recommend
 
 #### For utility proposes some functions were added to libraries: 
 1. At _/home/$USER/.local/lib/python3.6/site-packages/object_detection/utils/_ replace **_visualization_utils.py_** with the updated version provided in this package.
-2. At _/opt/ros/melodic/lib/python2.7/dist-packages/ros_numpy/_ replace **_point_cloud2.py_** with the updated version provided in this package.
+2. At **_/opt/ros/melodic/lib/python2.7/dist-packages/ros_numpy/_** replace **_point_cloud2.py_** with the (updated version)[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] provided in this package.
 
 ### Additional features
 - Run **rviz** to visualize the rover operation and open ros topics for real-time monitoring of rover operaation, for example, check the update mapping point cloud from LeGO-LOAM.
